@@ -1,0 +1,28 @@
+Average retail price of electricity annual
+https://www.eia.gov/electricity/data/browser/#/topic/7?agg=0,1&geo=g&endsec=vg&linechart=~~~ELEC.PRICE.US-IND.A&columnchart=ELEC.PRICE.US-ALL.A~ELEC.PRICE.US-RES.A~ELEC.PRICE.US-COM.A~ELEC.PRICE.US-IND.A&map=ELEC.PRICE.US-ALL.A&freq=A&start=2001&end=2023&ctype=linechart&ltype=pin&rtype=s&maptype=0&rse=0&pin=
+19:47:56 GMT-0600 (Central Standard Time)
+Data source: U.S. Energy Information Administration
+Year,industrial cents per kilowatthour
+2023,8.04
+2022,8.32
+2021,7.18
+2020,6.67
+2019,6.81
+2018,6.92
+2017,6.88
+2016,6.76
+2015,6.91
+2014,7.1
+2013,6.89
+2012,6.67
+2011,6.82
+2010,6.77
+2009,6.83
+2008,6.96
+2007,6.39
+2006,6.16
+2005,5.73
+2004,5.25
+2003,5.11
+2002,4.88
+2001,5.05
