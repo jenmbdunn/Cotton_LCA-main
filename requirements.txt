@@ -1,0 +1,23 @@
+# Tested with Python 3.9.6. Versions below are pinned to match the Methods
+# section's software-versioning statement (required by the journal's
+# reproducibility checklist) and the environment verified to reproduce every
+# figure/table in this repository.
+
+# Core (required by nearly every notebook/script in code/)
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+matplotlib==3.9.4
+openpyxl        # pandas .xlsx read/write
+
+# Used by specific notebooks
+seaborn          # 2_data_interpretation_CottonData.ipynb (clustermap figures)
+scikit-learn==1.6.1   # 4_Cotton_CMIP_Prediction.py (RandomForest, KNN, feature selection)
+tensorflow       # 4_Cotton_CMIP_Prediction.py (Keras MLP ensemble)
+netCDF4          # 1_data_process_CMIP6Data.ipynb (raw CMIP6 weather files)
+geopandas        # 1_data_process_CMIP6Data.ipynb (state-boundary aggregation)
+pymannkendall==1.4.3  # 5_Cotton_strategy.ipynb (Sen's slope + Mann-Kendall trend test, Fig. 2d)
+
+# Only needed to execute the .ipynb notebooks from the command line
+jupyter
+nbconvert
